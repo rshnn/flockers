@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!-- CS440:  stuck testcase -->
+<!-- Three boids attempt to obtain a lights that is too close to an obstacle to reach.-->
+
+<world xmlns="http://perceptualscience.rutgers.edu/flocking"
+   width="500" height="500" time="25" debug="true">
+
+   <!-- Defaults set obstacle weights to be slightly stronger than the light weight. -->
+   <defaults>
+     <flocker debug="false" 
+              light="true" clear="true" evade="true" align="true" center="true" 
+              ow="100" lw="3"/>
+   </defaults>
+
+   <!-- Flocking agents -->
+   <flocker x="100" y="80" heading="0" />
+   <flocker x="100" y="120" heading="0" />
+   <flocker x="100" y="160" heading="0" />
+ 
+    
+  <!-- An L shaped corner -->
+    <rock x="220" y="250" />
+    <rock x="230" y="250" />
+    <rock x="240" y="250" />
+    <rock x="250" y="250" />
+    <rock x="260" y="250" />
+    <rock x="270" y="250" />
+    <rock x="280" y="250" />
+   
+    <rock x="280" y="240" />
+    <rock x="280" y="230" />
+    <rock x="280" y="220" />
+    <rock x="280" y="210" />
+    <rock x="280" y="200" />
+
+
+    <!-- Light is placed within the corner -->
+    <light x="260" y="230" /> 
+
+
+   
+
+</world>

@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+
+
+<world xmlns="http://perceptualscience.rutgers.edu/flocking"
+   width="500" height="500" time="100" debug="true">
+   <defaults>
+     <flocker debug="false" id="1"
+              light="true" clear="true" evade="true" align="true" center="true" 
+              ow="100" sw="75" aw=".5" cw="5" lw="2"
+      />
+   </defaults>
+
+  <flocker x="258" y="31" heading="90" g="255" forwardMax="5" accelMax="80" decelMax="15" sw="10"/>
+
+
+   <flocker x="260" y="1" heading="90" />
+   <flocker x="258" y="1" heading="90" />
+   <flocker x="256" y="1" heading="90" />
+   <flocker x="254" y="1" heading="90" />
+   <flocker x="252" y="1" heading="90" />
+   <flocker x="250" y="1" heading="90" />
+   <flocker x="248" y="1" heading="90" />
+   <flocker x="246" y="1" heading="90" />
+   <flocker x="244" y="1" heading="90" />
+   <flocker x="242" y="1" heading="90" />
+   <flocker x="240" y="1" heading="90" />
+   <flocker x="238" y="1" heading="90" />
+
+  <flocker x="260" y="30" heading="90" b="255" />
+   <flocker x="256" y="11" heading="90" b="255"/>
+   <flocker x="254" y="11" heading="90" b="255"/>
+   <flocker x="252" y="11" heading="90" b="255"/>
+   <flocker x="250" y="11" heading="90" b="255"/>
+   <flocker x="248" y="11" heading="90" b="255"/>
+   <flocker x="246" y="11" heading="90" b="255"/>
+   <flocker x="244" y="11" heading="90" b="255"/>
+   <flocker x="242" y="11" heading="90" b="255"/>
+   <flocker x="240" y="11" heading="90" b="255"/>
+   <flocker x="238" y="11" heading="90" b="255"/>
+
+<!--      <flocker x="260" y="21" heading="90" g="255"/>
+   <flocker x="258" y="21" heading="90" g="255"/>
+   <flocker x="256" y="21" heading="90" g="255"/>
+   <flocker x="254" y="21" heading="90" g="255"/>
+   <flocker x="252" y="21" heading="90" g="255"/>
+   <flocker x="250" y="21" heading="90" g="255"/>
+   <flocker x="248" y="21" heading="90" g="255"/>
+   <flocker x="246" y="21" heading="90" g="255"/>
+   <flocker x="244" y="21" heading="90" g="255"/>
+   <flocker x="242" y="21" heading="90" g="255"/>
+   <flocker x="240" y="21" heading="90" g="255"/>
+   <flocker x="238" y="21" heading="90" g="255"/> -->
+
+    <flocker x="260" y="31" heading="90" r="255"/>
+   <flocker x="258" y="31" heading="90" r="255"/>
+   <flocker x="256" y="31" heading="90" r="255"/>
+   <flocker x="254" y="31" heading="90" r="255"/>
+   <flocker x="252" y="31" heading="90" r="255"/>
+   <flocker x="250" y="31" heading="90" r="255"/>
+   <flocker x="248" y="31" heading="90" r="255"/>
+   <flocker x="246" y="31" heading="90" r="255"/>
+   <flocker x="244" y="31" heading="90" r="255"/>
+   <flocker x="242" y="31" heading="90" r="255"/>
+   <flocker x="240" y="31" heading="90" r="255"/>
+   <flocker x="238" y="31" heading="90" r="255"/>
+    
+
+
+ <!-- Left Wall -->
+    <rock x="150" y="0" />
+    <rock x="150" y="10" />
+    <rock x="150" y="20" />
+    <rock x="150" y="30" />
+    <rock x="150" y="40" />
+    <rock x="150" y="50" />
+    <rock x="150" y="60" />
+    <rock x="150" y="70" />
+    <rock x="150" y="80" />
+    <rock x="150" y="90" />
+    <rock x="150" y="100" />
+    <rock x="150" y="110" />
+    <rock x="150" y="120" />
+    <rock x="150" y="130" />
+    <rock x="150" y="140" />
+    <rock x="150" y="150" />
+
+    <rock x="150" y="340" />    
+    <rock x="150" y="350" />    
+    <rock x="150" y="360" />    
+    <rock x="150" y="370" />    
+    <rock x="150" y="380" />    
+    <rock x="150" y="390" />    
+    <rock x="150" y="400" />    
+    <rock x="150" y="410" />    
+    <rock x="150" y="420" />    
+    <rock x="150" y="430" />    
+    <rock x="150" y="440" />    
+    <rock x="150" y="450" />    
+    <rock x="150" y="460" />    
+    <rock x="150" y="470" />    
+    <rock x="150" y="480" />    
+    <rock x="150" y="490" />    
+    <rock x="150" y="500" />    
+
+    <!-- Right Wall -->
+    <rock x="350" y="0" />
+    <rock x="350" y="10" />
+    <rock x="350" y="20" />
+    <rock x="350" y="30" />
+    <rock x="350" y="40" />
+    <rock x="350" y="50" />
+    <rock x="350" y="60" />
+    <rock x="350" y="70" />
+    <rock x="350" y="80" />
+    <rock x="350" y="90" />
+    <rock x="350" y="100" />
+    <rock x="350" y="110" />
+    <rock x="350" y="120" />
+    <rock x="350" y="130" />
+    <rock x="350" y="140" />
+    <rock x="350" y="150" />
+
+    <rock x="350" y="340" />    
+    <rock x="350" y="350" />    
+    <rock x="350" y="360" />    
+    <rock x="350" y="370" />    
+    <rock x="350" y="380" />    
+    <rock x="350" y="390" />    
+    <rock x="350" y="400" />    
+    <rock x="350" y="410" />    
+    <rock x="350" y="420" />    
+    <rock x="350" y="430" />    
+    <rock x="350" y="440" />    
+    <rock x="350" y="450" />    
+    <rock x="350" y="460" />    
+    <rock x="350" y="470" />    
+    <rock x="350" y="480" />    
+    <rock x="350" y="490" />    
+    <rock x="350" y="500" />   
+
+
+
+    <rock x="250" y="250" />
+
+
+
+
+
+    
+<!--    	<light x="100" y="100" /> 
+    <light x="425" y="100" /> 
+    <light x="425" y="425" /> 
+    <light x="100" y="425" /> 
+ -->
+
+   
+
+</world>

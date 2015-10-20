@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!-- CS440:  split testcase-->
+<!-- Five boids go around an obstacle to reach a light -->
+
+<world xmlns="http://perceptualscience.rutgers.edu/flocking"
+   width="500" height="500" time="75" debug="false">
+   <defaults>
+     <flocker debug="false" 
+              light="true" clear="true" evade="true" align="true" center="true" 
+      />
+   </defaults>
+    
+  <flocker x="100" y="40" heading="0" />
+  <flocker x="100" y="80" heading="0" />
+  <flocker x="100" y="120" heading="0" />
+  <flocker x="100" y="160" heading="0" />
+  <flocker x="100" y="200" heading="0" />
+
+    
+  <rock x="200" y="70" />
+  <rock x="200" y="80" />
+  <rock x="200" y="90" />
+  <rock x="200" y="100" />
+  <rock x="200" y="110" />
+  <rock x="200" y="120" />
+  <rock x="200" y="130" />
+  <rock x="200" y="140" />
+  <rock x="200" y="150" />
+
+
+  <light x="350" y="100" />
+
+
+</world>
