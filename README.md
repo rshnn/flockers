@@ -10,6 +10,6 @@ An implementation of flocking behavior in boids exhibiting separation, alignment
 
 ##Demo:
 
-![](https://github.com/rshnn/RxLethality/blob/master/screenshots/droids.gif?raw=true "boidsout")
-![](https://github.com/rshnn/RxLethality/blob/master/screenshots/who_let_the_boids_out.png?raw=true "nottheboids")
+![](https://github.com/rshnn/flockers/blob/master/droids.gif?raw=true "boidsout")
+![](https://github.com/rshnn/flockers/blob/master/who_let_the_boids_out.png?raw=true "nottheboids")
 
