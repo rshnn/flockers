@@ -10,7 +10,10 @@ An implementation of flocking behavior in boids exhibiting separation, alignment
 
 ##Demo:
 
+Basic flocking and target-affinity behavior with force vectors visible. 
 ![](https://github.com/rshnn/flockers/blob/master/droids.gif?raw=true "boidsout")
+
+Debugging light chasing behavior.
 ![](https://github.com/rshnn/flockers/blob/master/who_let_the_boids_out.gif?raw=true "nottheboids")
 
 More examples to be added if I am bored enough.
