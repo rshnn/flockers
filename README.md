@@ -5,7 +5,7 @@ An implementation of flocking behavior in boids exhibiting separation, alignment
 ##Usage
 - Clone repository.
 - Open a command prompt, navigate to the /Skeleton folder
-- $ java Simulation ../Examples/<Enter an .xml>
+- $ java Simulation ../Examples/ Choose an .xml
 - /Examples contains several world simulations in which boids interact under a set of given conditions. 
 
 ##Demo:
