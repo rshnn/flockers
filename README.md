@@ -16,5 +16,9 @@ Basic flocking and target-affinity behavior with force vectors visible.
 Debugging light chasing behavior.
 ![](https://github.com/rshnn/flockers/blob/master/who_let_the_boids_out.gif?raw=true "nottheboids")
 
+Example of the disadvantages of simple behaviors.  Boids are unable to reach the light due to repulsive forces. 
+![](https://github.com/rshnn/flockers/blob/master/stuck.gif?raw=true "stuck")
+
+
 More examples to be added if I am bored enough.
 Check out celebrity.xml.  It implements crowd chasing behavior.
